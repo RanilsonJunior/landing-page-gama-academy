@@ -1,0 +1,44 @@
+/*raiz para setar as cores*/
+:root{
+    --grey-blue: #a9b7c0;
+    --preto: #141414;
+    --minty: rgb(199, 216, 198);
+    --light: rgba(117, 117, 117, 0.404);
+    --powder: #CCC8C6;
+    --cinza: #3c3c3c;
+
+}
+
+/*reseta tudo*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+header .container-header{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    background-color: var(--cinza);
+    padding-left: 50px;
+    padding-right: 100px;
+}
+
+
+
+header nav a{
+    text-decoration: none;
+    color:white;
+    margin-right: 20px;  
+    background-color: var(--cinza);
+    padding: 10px 10px;
+}
+
+header nav a:hover{
+    background-color: var(--light);
+}
+
+
