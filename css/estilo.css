@@ -41,4 +41,33 @@ header nav a:hover{
     background-color: var(--light);
 }
 
+/*testando*/
 
+#cadastro {
+    position: relative;
+    margin:  auto 0;
+    width: 100%;
+}
+
+#background {
+    display:block;
+    position: relative;
+    width: 100%;
+}
+
+.botaoCadastro {
+    position: absolute;
+    transform: translate(-50%, -50%);    
+    left: 50%;
+    top: 50%;
+    background-color: #fcfcfc69;
+    padding: 50px;
+}
+
+input[type=email]{
+    color: red;
+}
+
+input[type=submit]{
+    color: red;
+}
